@@ -8,9 +8,9 @@
 * docker-compose -p "dev" up -d
 
 ## 3. Test
-* docker ps
-* docker exec -it dev_xqa-db_1  bash
+* docker exec -it dev_xqa-db_1 bash
 * psql -h localhost -p 5432 -U xqa -d xqa
+* select * from events;
 
 ## 4. Teardown
 * docker-compose -p "dev" down -v
