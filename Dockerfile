@@ -1,4 +1,4 @@
-FROM postgres:10.1
+FROM postgres:11
 
 MAINTAINER james.hn.sears@gmail.com
 
