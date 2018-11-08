@@ -7,7 +7,7 @@ services:
   - docker
 
 env:
-  - XQA_CONTAINER=dev_xqa-db_1
+  - XQA_CONTAINER=xqa-db
 
 before_script:
   - sudo service postgresql stop
