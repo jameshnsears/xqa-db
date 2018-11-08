@@ -9,7 +9,7 @@
 
 ## 3. Test
 * docker ps
-* docker exec -it <container id>  bash
+* docker exec -it dev_xqa-db_1  bash
 * psql -h localhost -p 5432 -U xqa -d xqa
 
 ## 4. Teardown

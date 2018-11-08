@@ -4,6 +4,7 @@ services:
   xqa-db:
     build: .
     image: "xqa-db"
+    container_name: dev_xqa-db_1
     volumes:
       - "xqa-db:/var/lib/postgresql"
     ports:
