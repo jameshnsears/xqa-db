@@ -1,2 +1,2 @@
-docker exec dev_xqa-db_1 pg_dumpall -U postgres -g > role.sql
-docker exec dev_xqa-db_1 pg_dump -U xqa -s xqa > xqa.sql
+docker exec xqa-db pg_dumpall -U postgres -g > role.sql
+docker exec xqa-db pg_dump -U xqa -s xqa > xqa.sql
