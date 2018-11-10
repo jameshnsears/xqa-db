@@ -2,9 +2,6 @@
 -- PostgreSQL database dump
 --
 
--- Dumped from database version 11.0 (Debian 11.0-1.pgdg90+2)
--- Dumped by pg_dump version 11.0 (Debian 11.0-1.pgdg90+2)
-
 SET statement_timeout = 0;
 SET lock_timeout = 0;
 SET idle_in_transaction_session_timeout = 0;
