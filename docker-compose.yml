@@ -3,7 +3,7 @@ version: '3'
 services:
   xqa-db:
     build: .
-    image: "xqa-db"
+    image: xqa-db
     container_name: xqa-db
     volumes:
       - "xqa-db:/var/lib/postgresql"

@@ -2,10 +2,10 @@
 * PostgreSQL instance, used to store instrumentation.
 
 ## 1. Build
-* docker-compose -p "dev" build --force-rm
+* docker-compose build --force-rm
 
 ## 2. Bring up
-* docker-compose -p "dev" up -d
+* docker-compose up -d
 
 ## 3. Test
 * docker exec -it xqa-db bash
@@ -13,4 +13,4 @@
 * select * from events;
 
 ## 4. Teardown
-* docker-compose -p "dev" down -v
+* docker-compose down -v
